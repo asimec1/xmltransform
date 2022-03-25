@@ -1,0 +1,71 @@
+planet:before {
+  display: block;
+  width: 8em;
+  font-weight: bold;
+  font-size: 200%;
+  content: "Oceans";
+  margin: -.75em 0px .25em -.25em;
+  padding: .1em .25em;
+  background-color: #cdf;
+  }
+
+planet {
+  display: block;
+  margin: 2em 1em;
+  border: 4px solid #cdf;
+  padding: 0px 1em;
+  background-color: white;
+  }
+
+ocean {
+  display: block;
+  margin-bottom: 1em;
+  }
+
+name {
+  display: block;
+  font-weight: bold;
+  font-size: 150%;
+  }
+
+area {
+  display: block;
+  }
+
+area:before {
+  content: "Area: ";
+  }
+
+area:after {
+  content: " million km\B2";
+  }
+
+depth {
+  display: block;
+  }
+
+depth:before {
+  content: "Mean depth: ";
+  }
+
+depth:after {
+  content: " m";
+}
+
+imgloc1, imgloc2, imgloc3 {
+    display: block;
+    border: 1px solid balck;
+    padding: 3px;
+    width: 100px;
+    height: 100px;
+    background-image: url("img/arctic.jpg");
+    margin-top: 3px;
+}
+
+imgloc2 {
+    background-image: url("img/atlantic.jpg");
+}
+
+imgloc3 {
+    background-image: url("img/pacifik.jpg");
+}
